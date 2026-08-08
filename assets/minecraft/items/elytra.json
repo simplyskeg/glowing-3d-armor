@@ -1,0 +1,42 @@
+{
+	"model": {
+		"type": "minecraft:select",
+		"property": "minecraft:display_context",
+		"cases": [
+			{
+				"when": [
+					"firstperson_lefthand",
+					"thirdperson_righthand",
+					"thirdperson_lefthand",
+					"firstperson_righthand"
+				],
+				"model": {
+					"type": "minecraft:condition",
+					"property": "minecraft:has_component",
+					"component": "minecraft:enchantments",
+					"ignore_default": true,
+					"on_true": {
+						"type": "minecraft:model",
+						"model": "item/enchanted/armor/elytra"
+					},
+					"on_false": {
+						"type": "minecraft:model",
+						"model": "item/armor/elytra"
+					}
+				}
+			}
+		],
+		"fallback": {
+			"type": "minecraft:condition",
+			"property": "minecraft:broken",
+			"on_true": {
+				"type": "minecraft:model",
+				"model": "minecraft:item/elytra_broken"
+			},
+			"on_false": {
+				"type": "minecraft:model",
+				"model": "minecraft:item/elytra"
+			}
+		}
+	}
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/armor/boots",
+  "textures": {
+    "0": "item/boots/netherite",
+    "particle": "item/boots/netherite"
+  }
+}

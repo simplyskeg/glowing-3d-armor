@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:item/armor/helmet",
+  "textures": {
+    "0": "minecraft:item/helmet/netherite",
+    "1": "minecraft:item/outline/helmet",
+    "particle": "minecraft:item/helmet/netherite"
+  }
+}

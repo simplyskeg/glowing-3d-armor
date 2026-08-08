@@ -1,0 +1,232 @@
+{
+  "item": {
+    "chestplates": {
+      "kind": "INGREDIENT",
+      "armKind": "INGREDIENT",
+      "transforms": {
+        "right": {
+          "scale": 1.6499988,
+          "offX": -0.03200002,
+          "offY": -0.14999993,
+          "offZ": 0.019999983,
+          "rotX": 363.0,
+          "rotY": -233.0,
+          "rotZ": 77.0,
+          "pivotX": -0.010000059,
+          "pivotY": 0.060000367,
+          "pivotZ": -0.09,
+          "physics": "FORWARD_PENDULUM"
+        },
+        "left": {
+          "scale": 1.6499988,
+          "offX": 0.03200002,
+          "offY": -0.14999993,
+          "offZ": 0.019999983,
+          "rotX": 372.0,
+          "rotY": 227.0,
+          "rotZ": -68.0,
+          "pivotX": 0.010000059,
+          "pivotY": 0.060000367,
+          "pivotZ": -0.09,
+          "physics": "FORWARD_PENDULUM"
+        }
+      },
+      "physics": [
+        {
+          "name": "FORWARD_PENDULUM",
+          "force": 0.05,
+          "speed": 1
+        }
+      ],
+      "armTransforms": {
+        "right": {
+          "scale": 0.7900002,
+          "offX": 0.21000002,
+          "offY": 0.11999998,
+          "offZ": -0.31999996,
+          "rotX": 7.0,
+          "rotY": -92.0,
+          "rotZ": 24.0,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        },
+        "left": {
+          "scale": 0.7900001,
+          "offX": -0.21000001,
+          "offY": 0.109999985,
+          "offZ": -0.31999996,
+          "rotX": -8.0,
+          "rotY": 92.0,
+          "rotZ": -10.0,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        }
+      }
+    },
+    "leggings": {
+        "kind": "INGREDIENT",
+        "armKind": "INGREDIENT",
+        "transforms": {
+          "right": {
+            "scale": 1.15,
+            "offX": 0.03,
+            "offY": 0.01,
+            "offZ": 0.02,
+            "rotX": -6.0,
+            "rotY": 39.0,
+            "rotZ": 1.0,
+            "pivotX": 0.0,
+            "pivotY": 0.0,
+            "pivotZ": 0.0
+          },
+          "left": {
+            "scale": 1.15,
+            "offX": -0.03,
+            "offY": 0.01,
+            "offZ": 0.02,
+            "rotX": -6.0,
+            "rotY": -39.0,
+            "rotZ": -1.0,
+            "pivotX": 0.0,
+            "pivotY": 0.0,
+            "pivotZ": 0.0
+          }
+        },
+        "armTransforms": {
+          "right": {
+            "scale": 1.0,
+            "offX": 0.0,
+            "offY": 0.13999999,
+            "offZ": -0.049999997,
+            "rotX": 0.0,
+            "rotY": -3.0,
+            "rotZ": 0.0,
+            "pivotX": 0.0,
+            "pivotY": 0.0,
+            "pivotZ": 0.0
+          },
+          "left": {
+            "scale": 1.0,
+            "offX": 0.0,
+            "offY": 0.18,
+            "offZ": 0.0,
+            "rotX": 0.0,
+            "rotY": 0.0,
+            "rotZ": 0.0,
+            "pivotX": 0.0,
+            "pivotY": 0.0,
+            "pivotZ": 0.0
+          }
+        }
+      }
+  },
+  "itemSpecific": {
+    "minecraft:elytra": {
+      "kind": "INGREDIENT",
+      "armKind": "INGREDIENT",
+      "transforms": {
+        "right": {
+          "scale": 1.6499988,
+          "offX": -0.002000019,
+          "offY": -0.03999994,
+          "offZ": 0.079999976,
+          "rotX": 559.0,
+          "rotY": -266.0,
+          "rotZ": 62.0,
+          "pivotX": -0.010000059,
+          "pivotY": 0.030000372,
+          "pivotZ": -0.040000014
+        },
+        "left": {
+          "scale": 1.6499988,
+          "offX": 0.002000019,
+          "offY": -0.03999994,
+          "offZ": 0.079999976,
+          "rotX": 559.0,
+          "rotY": 266.0,
+          "rotZ": -62.0,
+          "pivotX": 0.010000059,
+          "pivotY": 0.030000372,
+          "pivotZ": -0.040000014
+        }
+      },
+      "physics": [
+        {
+          "name": "FORWARD_PENDULUM",
+          "force": 0.05,
+          "speed": 1
+        }
+      ],
+
+      "armTransforms": {
+        "right": {
+          "scale": 0.7900002,
+          "offX": 0.21000002,
+          "offY": 0.11999998,
+          "offZ": -0.31999996,
+          "rotX": 7.0,
+          "rotY": -92.0,
+          "rotZ": 24.0,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        },
+        "left": {
+          "scale": 0.7900001,
+          "offX": -0.21000001,
+          "offY": 0.109999985,
+          "offZ": -0.31999996,
+          "rotX": -8.0,
+          "rotY": 92.0,
+          "rotZ": -10.0,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        }
+      }
+    }
+  },
+  "customGroups": [
+    {
+      "name": "chestplates",
+      "items": [
+        "minecraft:leather_chestplate",
+        "minecraft:chainmail_chestplate",
+        "minecraft:iron_chestplate",
+        "minecraft:golden_chestplate",
+        "minecraft:diamond_chestplate",
+        "minecraft:netherite_chestplate",
+        "minecraft:copper_chestplate",
+        "minecraft:elytra"
+      ]
+    },
+    {
+      "name": "leggings",
+      "items": [
+        "minecraft:leather_leggings",
+        "minecraft:chainmail_leggings",
+        "minecraft:iron_leggings",
+        "minecraft:golden_leggings",
+        "minecraft:diamond_leggings",
+        "minecraft:netherite_leggings",
+        "minecraft:copper_leggings",
+        "minecraft:leather_boots",
+        "minecraft:chainmail_boots",
+        "minecraft:iron_boots",
+        "minecraft:golden_boots",
+        "minecraft:diamond_boots",
+        "minecraft:netherite_boots",
+        "minecraft:copper_boots",
+        "minecraft:leather_helmet",
+        "minecraft:chainmail_helmet",
+        "minecraft:iron_helmet",
+        "minecraft:golden_helmet",
+        "minecraft:diamond_helmet",
+        "minecraft:netherite_helmet",
+        "minecraft:copper_helmet"
+      ]
+    }
+  ]
+}

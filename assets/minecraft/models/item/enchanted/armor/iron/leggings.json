@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/enchanted/armor/leggings",
+  "textures": {
+    "0": "item/enchanted/leggings/iron",
+    "particle": "item/enchanted/leggings/iron"
+  }
+}

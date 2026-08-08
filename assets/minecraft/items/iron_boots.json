@@ -1,0 +1,50 @@
+{
+	"model": {
+		"type": "minecraft:condition",
+		"property": "minecraft:has_component",
+		"component": "minecraft:enchantments",
+		"ignore_default": true,
+		"on_true": {
+			"type": "minecraft:select",
+			"property": "minecraft:display_context",
+			"cases": [
+				{
+					"when": [
+						"ground",
+						"fixed",
+						"gui"
+					],
+					"model": {
+						"type": "minecraft:model",
+						"model": "minecraft:item/iron_boots"
+					}
+				}
+			],
+			"fallback": {
+				"type": "minecraft:model",
+				"model": "item/enchanted/armor/iron/boots"
+			}
+		},
+		"on_false": {
+			"type": "minecraft:select",
+			"property": "minecraft:display_context",
+			"cases": [
+				{
+					"when": [
+						"gui",
+						"fixed",
+						"ground"
+					],
+					"model": {
+						"type": "minecraft:model",
+						"model": "minecraft:item/iron_boots"
+					}
+				}
+			],
+			"fallback": {
+				"type": "minecraft:model",
+				"model": "item/armor/iron/boots"
+			}
+		}
+	}
+}

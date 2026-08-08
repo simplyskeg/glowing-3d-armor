@@ -1,0 +1,26 @@
+{
+  "pack": {
+    "description": "§b§l3D Armor With Outlines!\n§r§7V1.1.5 | by Tixul",
+    "min_format": 65, 
+    "max_format": 99
+  },
+  "overlays": {
+    "entries": [
+      { 
+        "directory": "1-21-11",
+        "min_format": 67, 
+        "max_format": 75
+      },
+      {
+        "directory": "26-1",
+        "min_format": 76, 
+        "max_format": 87
+      },
+            {
+        "directory": "26-2",
+        "min_format": 87, 
+        "max_format": 99
+      }
+    ]
+  }
+}

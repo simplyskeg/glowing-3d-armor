@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/armor/held_horse_armor",
+  "textures": {
+    "0": "minecraft:item/horse/held_copper_horse_armor",
+    "particle": "minecraft:item/horse/held_copper_horse_armor"
+  }
+}

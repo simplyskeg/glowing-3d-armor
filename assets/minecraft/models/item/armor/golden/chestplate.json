@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/armor/chestplate",
+  "textures": {
+    "0": "item/chestplate/golden",
+    "particle": "item/chestplate/golden"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/armor/leggings",
+  "textures": {
+    "0": "item/leggings/netherite",
+    "particle": "item/leggings/netherite"
+  }
+}

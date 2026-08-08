@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/enchanted/armor/boots",
+  "textures": {
+    "0": "item/enchanted/boots/copper",
+    "particle": "item/enchanted/boots/copper"
+  }
+}
