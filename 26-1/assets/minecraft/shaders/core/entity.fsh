@@ -34,12 +34,18 @@ void main() {
     vec4 faceVertexColor = vertexColor;
 #endif
 
+    vec4 currentLightMapColor = lightMapColor;
+
     ivec4 pixel = ivec4(
         round(texelFetch(Sampler0, ivec2(texCoord0 * textureSize(Sampler0, 0)), 0) * 255)
     );
 
     switch (pixel.a) {
-        case 200: case 252: case 253: case 250: 
+        case 252:
+            color *= unshadedColor;
+            currentLightMapColor = vec4(1.0);
+            break;
+        case 200: case 253: case 250: 
             color *= unshadedColor; 
             break;
         default: 
@@ -53,7 +59,7 @@ void main() {
     color.rgb = mix(overlayColor.rgb, color.rgb, overlayColor.a);
 #endif
 #ifndef EMISSIVE
-    color *= lightMapColor;
+    color *= currentLightMapColor;
 #endif
     fragColor = apply_fog(color, sphericalVertexDistance, cylindricalVertexDistance, FogEnvironmentalStart, FogEnvironmentalEnd, FogRenderDistanceStart, FogRenderDistanceEnd, FogColor);
 }
